@@ -3,7 +3,7 @@ import { FaRegFileAlt } from "react-icons/fa";
 import { LuDownload } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
 
-function Card({data}){
+function Card({ data }) {
   return (
     <div className='relative w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-8 py-10 overflow-hidden'>
       <FaRegFileAlt />
@@ -16,9 +16,14 @@ function Card({data}){
             {data.close ? <IoClose /> : <LuDownload size=".7em" color='#fff' />}
           </span>
         </div>
-        <div className='tag w-full h-20 py-4 bg-green-600 flex items-center justify-center'>
-          <h3 className='text-sm'>Download Now</h3>
-        </div>
+        {
+          data.tag.isOpen && (
+            <div className='tag w-full h-20 py-4 bg-green-600 flex items-center justify-center'>
+            <h3 className='text-sm'>Download Now</h3>
+            </div>
+          )
+        }
+
       </div>
     </div>
   )
