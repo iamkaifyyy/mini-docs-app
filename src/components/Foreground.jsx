@@ -9,6 +9,20 @@ const Foreground = () => {
       close: true,
       tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
     },
+    {
+      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
+      filesize: ".9mb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
+    },
+    {
+      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
+      filesize: ".9mb",
+      close: true,
+      tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
+    },
+
+      
   ];
   return (
     <div className="w-full h-full fixed  z-[3] top-0 left-0 ">
