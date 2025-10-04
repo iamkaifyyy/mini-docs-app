@@ -25,7 +25,7 @@ const Foreground = () => {
       
   ];
   return (
-    <div className="w-full h-full fixed  z-[3] top-0 left-0 ">
+    <div className="w-full h-full fixed  z-[3] top-0 left-0 flex gap-10 flex-wrap p-5">
       {data.map((item, index)=>(
         <Card data={item}/>
       )) }
