@@ -4,7 +4,7 @@ import { LuDownload } from "react-icons/lu";
 
 const Card = () => {
   return (
-    <div className='relative w-60 h-72 rounded-[50px] bg-zinc-900/90 text-white px-8 py-10 overflow-hidden'>
+    <div className='relative w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-8 py-10 overflow-hidden'>
       <FaRegFileAlt />
       <p className='text-sm leading-tight mt-5 font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
 
@@ -15,8 +15,8 @@ const Card = () => {
             <LuDownload size=".7em" color='#fff' />
           </span>
         </div>
-        <div className='tag w-full h-20 py-4 bg-green-200 flex items-center justify-center'>
-          <h3 className='text-'>Download Now</h3>
+        <div className='tag w-full h-20 py-4 bg-green-600 flex items-center justify-center'>
+          <h3 className='text-sm'>Download Now</h3>
         </div>
       </div>
     </div>
