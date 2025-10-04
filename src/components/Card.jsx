@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaRegFileAlt } from "react-icons/fa";
+import { LuDownload } from "react-icons/lu";
 
 const Card = () => {
   return (
@@ -7,9 +8,12 @@ const Card = () => {
       <FaRegFileAlt />
       <p className='text-sm leading-tight mt-5 font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
 
-      <div className='footer absolute bottom-0 bg-sky-200 w-full py-3 left-0 '>
-        <div>
+      <div className='footer absolute bottom-0 w-full py-3 left-0 px-8'>
+        <div className='flex items-center justify-between mb-5'>
           <h5>.4 mb</h5>
+          <span className='w-5 h5 bg-sky-200 rounded-full flex items-center justify-center'>
+            <LuDownload  size=".8em" color='' />
+          </span>
         </div>
       </div>
     </div>
