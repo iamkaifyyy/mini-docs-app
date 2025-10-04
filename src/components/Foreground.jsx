@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import { animate, scroll } from "motion"
 
 const Foreground = () => {
   const data = [
@@ -7,19 +8,19 @@ const Foreground = () => {
       desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
       filesize: ".9mb",
       close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
       desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
       filesize: ".9mb",
       close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
     {
       desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
       filesize: ".9mb",
       close: true,
-      tag: { isOpen: true, tagTitle: "Download Now", tagColoe: "green" },
+      tag: { isOpen: true, tagTitle: "Download Now", tagColor: "green" },
     },
 
       

@@ -18,8 +18,8 @@ function Card({ data }) {
         </div>
         {
           data.tag.isOpen && (
-            <div className='tag w-full h-20 py-4 bg-green-600 flex items-center justify-center'>
-            <h3 className='text-sm'>Download Now</h3>
+            <div className={`tag w-full h-20 py-4 ${data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-600"} flex items-center justify-center`}>
+            <h3 className='text-sm'>{data.tagTitle}</h3>
             </div>
           )
         }
