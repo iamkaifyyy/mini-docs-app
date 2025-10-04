@@ -9,13 +9,15 @@ const Card = () => {
       <p className='text-sm leading-tight mt-5 font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
 
       <div className='footer absolute bottom-0 w-full left-0'>
-        <div className='flex items-center px-8 py-3 justify-between mb-5'>
+        <div className='flex items-center px-8 py-3 justify-between mb-3'>
           <h5>.4 mb</h5>
           <span className='w-7 h-7  bg-zinc-600 rounded-full flex items-center justify-center'>
-            <LuDownload  size=".7em" color='#fff' />
+            <LuDownload size=".7em" color='#fff' />
           </span>
         </div>
-        <div className='tag w-full h-20 bg-sky-200'></div>
+        <div className='tag w-full h-20 py-4 bg-green-200 flex items-center justify-center'>
+          <h3 className='text-'>Download Now</h3>
+        </div>
       </div>
     </div>
   )
