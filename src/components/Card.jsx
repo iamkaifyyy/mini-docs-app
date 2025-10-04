@@ -8,13 +8,14 @@ const Card = () => {
       <FaRegFileAlt />
       <p className='text-sm leading-tight mt-5 font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
 
-      <div className='footer absolute bottom-0 w-full py-3 left-0 px-8'>
-        <div className='flex items-center justify-between mb-5'>
+      <div className='footer absolute bottom-0 w-full left-0'>
+        <div className='flex items-center px-8 py-3 justify-between mb-5'>
           <h5>.4 mb</h5>
-          <span className='w-5 h5 bg-sky-200 rounded-full flex items-center justify-center'>
-            <LuDownload  size=".8em" color='' />
+          <span className='w-7 h-7  bg-zinc-600 rounded-full flex items-center justify-center'>
+            <LuDownload  size=".7em" color='#fff' />
           </span>
         </div>
+        <div className='tag w-full h-20 bg-sky-200'></div>
       </div>
     </div>
   )
