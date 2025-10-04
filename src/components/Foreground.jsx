@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import { animate, scroll } from "motion"
+
 
 const Foreground = () => {
   const data = [

@@ -2,6 +2,8 @@ import React from 'react'
 import { FaRegFileAlt } from "react-icons/fa";
 import { LuDownload } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
+import { animate, scroll } from "motion"
+
 
 function Card({ data }) {
   return (
