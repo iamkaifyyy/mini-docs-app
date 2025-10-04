@@ -7,7 +7,11 @@ const Card = () => {
       <FaRegFileAlt />
       <p className='text-sm leading-tight mt-5 font-semibold'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
 
-      <div className='footer absolute bottom-0 bg-sky-200 w-full py-3 left-0'></div>
+      <div className='footer absolute bottom-0 bg-sky-200 w-full py-3 left-0 '>
+        <div>
+          <h5>.4 mb</h5>
+        </div>
+      </div>
     </div>
   )
 }
